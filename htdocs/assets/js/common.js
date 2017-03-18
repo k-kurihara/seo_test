@@ -2,7 +2,7 @@
 $(function(){
   $.ajax({
     type: 'GET',
-    url: 'https://beta.json-generator.com/api/json/get/41uVeJUsf',
+    url: 'json/index.json',
     dataType: 'json',
     success: function(json){
       var len = json.length;
